@@ -8,4 +8,8 @@ function updateObjectWithKeyAndValue (obj, key, value){
   return Object.assign({}, obj, { [key]: value })
 };
 
-updateObjectWithKeyAndValue(recipes, "snack", "cheese")
+
+
+function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
+
+};
