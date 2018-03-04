@@ -21,3 +21,5 @@ function deleteFromObjectByKey(object, key){
   var newObj = Object.assign({}, object)
   return newObj
 };
+
+delete newObj.dinner
