@@ -22,4 +22,3 @@ function deleteFromObjectByKey(object, key){
   return newObj
 };
 
-delete newObj.dinner
